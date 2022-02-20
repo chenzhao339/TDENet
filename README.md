@@ -15,7 +15,47 @@ In this way, we complete the transformation of the MT dataset.
 
 Code for TDENet
 ------
-The code of our TDENet will be made publicly available upon the acceptance of the paper.
+The code of our TDENet has been made publicly available.
+
+Requirements
+------
+cuda=8.0
+python=3.6
+torch=0.3.1
+torchvision=0.2.0
+cython
+opencv-python
+numpy
+scipy
+matplotlib
+pyyaml
+easydict
+
+Compilation
+------
+cd (root)/lib
+sh make.sh
+
+It will compile the NMS, ROI_Pooing, ROI_Crop and ROI_Align.
+
+Data Preparation
+------
+需要在根目录下新建一个data文件夹，并将以下数据集下载到对应位置。
+
+Training and Testing
+------
+本文用ResNet101作为预训练模型。如果你想重新训练模型并测试则需要在终端输入以下命令：
+
+第一个阶段的训练：
+
+
+第二个阶段的训练：
+
+
+测试：
+
+
+此外，我们也提供了第一个阶段训练好的模型 ，只需要将权重文件下载下来，放到对应文件夹下直接开始第二个阶段的训练即可。
 
 Contact
 -------
