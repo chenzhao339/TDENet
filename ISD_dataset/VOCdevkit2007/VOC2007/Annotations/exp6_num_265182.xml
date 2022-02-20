@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp6_num_265182.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Blowhole\JPEGImages\exp6_num_265182.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>234</width>
+		<height>364</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blowhole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>18</ymin>
+			<xmax>224</xmax>
+			<ymax>38</ymax>
+		</bndbox>
+	</object>
+</annotation>

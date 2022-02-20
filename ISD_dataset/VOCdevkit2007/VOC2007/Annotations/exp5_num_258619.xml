@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp5_num_258619.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Fray\JPEGImages\exp5_num_258619.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>239</width>
+		<height>343</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fray</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>28</ymin>
+			<xmax>182</xmax>
+			<ymax>328</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fray</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>305</ymin>
+			<xmax>18</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+</annotation>

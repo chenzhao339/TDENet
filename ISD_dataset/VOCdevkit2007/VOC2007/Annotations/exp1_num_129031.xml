@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp1_num_129031.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Uneven\JPEGImages\exp1_num_129031.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>244</width>
+		<height>340</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>uneven</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>1</ymin>
+			<xmax>238</xmax>
+			<ymax>39</ymax>
+		</bndbox>
+	</object>
+</annotation>

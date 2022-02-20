@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp2_num_348648.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Break\JPEGImages\exp2_num_348648.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>497</width>
+		<height>374</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>break</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>7</ymin>
+			<xmax>52</xmax>
+			<ymax>33</ymax>
+		</bndbox>
+	</object>
+</annotation>

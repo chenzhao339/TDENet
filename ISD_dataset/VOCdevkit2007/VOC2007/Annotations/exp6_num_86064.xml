@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp6_num_86064.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Crack\JPEGImages\exp6_num_86064.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>594</width>
+		<height>242</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>310</xmin>
+			<ymin>145</ymin>
+			<xmax>327</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

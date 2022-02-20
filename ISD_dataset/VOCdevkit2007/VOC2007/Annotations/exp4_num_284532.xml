@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp4_num_284532.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Break\JPEGImages\exp4_num_284532.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>247</width>
+		<height>362</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>break</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>234</ymin>
+			<xmax>63</xmax>
+			<ymax>350</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>break</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>86</xmin>
+			<ymin>307</ymin>
+			<xmax>180</xmax>
+			<ymax>352</ymax>
+		</bndbox>
+	</object>
+</annotation>

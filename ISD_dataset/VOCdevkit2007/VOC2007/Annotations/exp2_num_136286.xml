@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>exp2_num_136286.jpg</filename>
+	<path>C:\Users\chenz\Desktop\ciwa&#65288;&#24050;&#36716;xml&#65289;base\MT_Fray\JPEGImages\exp2_num_136286.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>584</width>
+		<height>231</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fray</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>202</xmin>
+			<ymin>23</ymin>
+			<xmax>406</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>
