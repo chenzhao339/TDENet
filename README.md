@@ -72,8 +72,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py --dataset pascal_voc_0712 --epochs 71 --b
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset pascal_voc_0712 --net TDENet --load_dir models/meta/first  --checksession 10 --checkepoch 70 --checkpoint 49 --shots 10 --meta_test True --meta_loss True --phase 2<br>
 
 此外，如下所示，我们还提供了一个训练好的模型权重，放置到对应路径后，可以用上述代码直接进行缺陷检测测试。<br>
-链接：https://pan.baidu.com/s/1cn35W3GtYKui05M_Xs7O9A <br>
-提取码：0gek <br>
+链接：https://pan.baidu.com/s/1KNiI3H35dQMy0Sl24KaQKw <br>
+提取码：qzh9 <br>
 
 Contact
 -------
