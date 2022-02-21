@@ -59,7 +59,7 @@ Preparation
 
 Training and Testing
 ------
-本文用ResNet101作为预训练模型。在python环境配置完成之后，如果你想重新训练模型并测试则需要在终端输入以下命令：<br>
+在python环境配置完成之后，如果你想重新训练模型并测试则需要在终端输入以下命令：<br>
 
 第一个阶段的训练：<br>
 CUDA_VISIBLE_DEVICES=0 python train_metarcnn.py --dataset pascal_voc_0712 --epochs 21 --bs 8 --nw 2 --log_dir checkpoint --save_dir models/meta/first --meta_train True --meta_loss True --lr_decay_step 10<br>
@@ -68,7 +68,7 @@ CUDA_VISIBLE_DEVICES=0 python train_metarcnn.py --dataset pascal_voc_0712 --epoc
 CUDA_VISIBLE_DEVICES=0 python train_metarcnn.py --dataset pascal_voc_0712 --epochs 71 --bs 4 --nw 1 --log_dir checkpoint --save_dir models/meta/first --r True --checksession 200 --checkepoch 20 --checkpoint 249 --phase 2 --shots 10 --meta_train True --meta_loss True --lr_decay_step 71<br>
 
 测试：<br>
-CUDA_VISIBLE_DEVICES=0 python test_metarcnn1.py --dataset pascal_voc_0712 --net TDENet --load_dir models/meta/first  --checksession 10 --checkepoch 51 --checkpoint 49 --shots 10 --meta_test True --meta_loss True --phase 2<br>
+CUDA_VISIBLE_DEVICES=0 python test_metarcnn.py --dataset pascal_voc_0712 --net TDENet --load_dir models/meta/first  --checksession 10 --checkepoch 70 --checkpoint 49 --shots 10 --meta_test True --meta_loss True --phase 2<br>
 
 Contact
 -------
