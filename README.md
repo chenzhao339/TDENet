@@ -42,6 +42,7 @@ Preparation
 ------
 (1)准备数据集<br>
 需要在根目录下新建一个data文件夹，并将以下数据集下载到对应位置。<br>
+下面的压缩包包含了三种数据集，一种是ISD数据集，另外两种是MVTec公司提出的皮革缺陷和木材缺陷数据集。<br>
 需要注意的是，本文所用数据集采用的是VOC格式。<br>
 链接：https://pan.baidu.com/s/1Px4NsYUO41lPst1rfveQSA <br>
 提取码：yv7t<br>
