@@ -44,19 +44,19 @@ Preparation
 需要在根目录下新建一个data文件夹，并将以下数据集下载到对应位置。<br>
 下面的压缩包包含了三种数据集，一种是ISD数据集，另外两种是MVTec公司提出的皮革缺陷和木材缺陷数据集。<br>
 需要注意的是，本文所用数据集采用的是VOC格式。<br>
-链接：https://pan.baidu.com/s/1Px4NsYUO41lPst1rfveQSA <br>
-提取码：yv7t<br>
+链接：https://pan.baidu.com/s/1yMxowkbviQM-f7zRpdVrxQ <br>
+提取码：09z4 <br>
 
 (2)准备无缺陷数据<br>
 需要在根目录下新建一个normalset文件夹，并将以下无缺陷图像下载到对应位置。<br>
-链接：https://pan.baidu.com/s/1QZRdR5t_P4WDiB3R9koNoA  <br>
-提取码：mgya <br>
+链接：https://pan.baidu.com/s/1ByrtKj-Th-uYmNrh2oBdvQ <br>
+提取码：wu3r <br>
 
 (3)准备预训练模型<br>
 需要在根目录下新建一个models文件夹，并将以下预训练权重到对应位置。<br>
 如下所示的预训练权重均是第一阶段训练保存的模型权重，可以利用对应的权重直接开启第二阶段的训练。<br>
-链接：https://pan.baidu.com/s/1LkG852BxkkTA9xTBknQ1yA <br>
-提取码：ytw0<br>
+链接：https://pan.baidu.com/s/1lIHndMJiwRyLv0Pz0CimuA <br>
+提取码：2y31 <br>
 
 Training and Testing
 ------
@@ -70,6 +70,10 @@ CUDA_VISIBLE_DEVICES=0 python train.py --dataset pascal_voc_0712 --epochs 71 --b
 
 测试：<br>
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset pascal_voc_0712 --net TDENet --load_dir models/meta/first  --checksession 10 --checkepoch 70 --checkpoint 49 --shots 10 --meta_test True --meta_loss True --phase 2<br>
+
+此外，如下所示，我们还提供了一个训练好的模型权重，放置到对应路径后，可以用上述代码直接进行缺陷检测测试。<br>
+链接：https://pan.baidu.com/s/1cn35W3GtYKui05M_Xs7O9A <br>
+提取码：0gek <br>
 
 Contact
 -------
