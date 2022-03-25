@@ -1,4 +1,4 @@
-# Two-phase defect prominence network for few-shot defect detection with defect-free samples
+# Two-phase defect enhancement network for few-shot defect detection with defect-free samples
 This repository contains a new ISD dataset and a novel TDENet for Few-Shot Defect Detection.
 
 Original datasets
